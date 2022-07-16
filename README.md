@@ -1,0 +1,2 @@
+# KODLUYORUZ-PATIKADEV
+Eğitim Notlarım
