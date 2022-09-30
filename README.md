@@ -1,2 +1,1 @@
-# KODLUYORUZ-PATIKADEV
-Eğitim Notlarım
+# MY SQL NOTES
