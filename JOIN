@@ -1,0 +1,39 @@
+SELECT orders.*
+FROM orders
+JOIN accounts
+ON orders.account_id = accounts.id;
+
+As we've learned, the SELECT clause indicates which column(s) of data you'd like to see in the output 
+For Example, orders.* The FROM clause indicates the first table from which we're pulling data, and the JOIN indicates the second table. 
+The ON clause specifies the column on which you'd like to merge the two tables together.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+SELECT accounts.name, orders.occurred_at
+FROM orders
+JOIN accounts
+ON orders.account_id = accounts.id;
+
+If we wanted to only pull individual elements from either the orders or accounts table, 
+we can do this by using the exact same information in the FROM and ON statements. 
+However, in your SELECT statement, you will need to know how to specify tables and columns in the SELECT statement:
+
+The table name is always before the period.
+The column you want from that table is always after the period.
+For example, if we want to pull only the account name and the dates in which that account placed an order, but none of the other columns
+
+SELECT *
+FROM orders
+JOIN accounts
+ON orders.account_id = accounts.id;    
+
+is another alternative
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+SELECT orders.*
+FROM orders
+JOIN accounts
+ON orders.account_id = accounts.id;
+
+Joining tables allows you access to each of the tables in the SELECT statement through the table name, and the columns will always follow a . after the table name.
