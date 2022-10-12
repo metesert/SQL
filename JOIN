@@ -36,4 +36,6 @@ FROM orders
 JOIN accounts
 ON orders.account_id = accounts.id;
 
-Joining tables allows you access to each of the tables in the SELECT statement through the table name, and the columns will always follow after the table name.
+Joining tables allows you access to each of the tables in the SELECT statement through the table name, and the columns will always follow after the table name..
+
+
