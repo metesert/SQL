@@ -26,5 +26,5 @@ or following a certain set of characters, as we saw with the google syntax above
 EXAMPLE         SELECT*
                    FROM orders  
                    WHERE name IN ('Walmart', 'Apple') 
-This example doing is display, Select all column from orders table, name column, which is exist at Walmart and Apple.
+This example doing is display, Select all column from orders table, name column, which is exist at Walmart and Apple...
                    
