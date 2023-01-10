@@ -12,7 +12,7 @@ The ON clause specifies the column on which you'd like to merge the two tables t
 SELECT accounts.name, orders.occurred_at
 FROM orders
 JOIN accounts
-ON orders.account_id = accounts.id;
+ON orders.account_id = accounts.id ;
 
 If we wanted to only pull individual elements from either the orders or accounts table, 
 we can do this by using the exact same information in the FROM and ON statements. 
