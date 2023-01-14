@@ -18,7 +18,7 @@ If we wanted to only pull individual elements from either the orders or accounts
 we can do this by using the exact same information in the FROM and ON statements. 
 However, in your SELECT statement, you will need to know how to specify tables and columns in the SELECT statement:
 
-The table name is always before the period.
+The table name is always before the period .
 The column you want from that table is always after the period.
 For example, if we want to pull only the account name and the dates in which that account placed an order, but none of the other columns
 
