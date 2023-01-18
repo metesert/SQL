@@ -22,7 +22,7 @@ The table name is always before the period .
 The column you want from that table is always after the period.
 For example, if we want to pull only the account name and the dates in which that account placed an order, but none of the other columns
 
-SELECT *
+SELECT*
 FROM orders
 JOIN accounts
 ON orders.account_id = accounts.id;    
