@@ -15,7 +15,7 @@ JOIN accounts
 ON orders.account_id = accounts.id;
 
 If we wanted to only pull individual elements from either the orders or accounts table, 
-we can do this by using the exact same information in the FROM and ON statements. 
+we can do this by using the exact same information in the FROM and ON statements . 
 However, in your SELECT statement, you will need to know how to specify tables and columns in the SELECT statement:
 
 The table name is always before the period.
